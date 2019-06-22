@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container__text {
+  display:flex;
+  flex-direction: column;
+  width:500px;
+}
+
+.container__hr {
+  display: flex;
+  align-items: center;
+}
+
+.container__img {
+  display: flex;
+  justify-content: center;
+  width:500px;
+}
+
+.container__text__title {
+
+}
+
+.container__text__paragraph {
+
+}
+
+.container__hr__hr {
+  display: flex;
+  align-items: center;
+  border-left: 4px solid white;
+  height: 250px;
+}
+
+.container__img__img {
+  align-self: center;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
