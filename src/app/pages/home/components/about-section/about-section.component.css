@@ -1,6 +1,8 @@
 .container {
   display: flex;
   justify-content: space-evenly;
+  animation-duration: 2s;
+  animation-name: fadein;
 }
 
 .container__text {
@@ -21,7 +23,7 @@
 }
 
 .container__text__title {
-
+  font-weight: 300;
 }
 
 .container__text__paragraph {
@@ -31,7 +33,7 @@
 .container__hr__hr {
   display: flex;
   align-items: center;
-  border-left: 4px solid white;
+  border-left: 4px solid #53e67f;
   height: 250px;
 }
 

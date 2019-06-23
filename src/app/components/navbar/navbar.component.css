@@ -10,9 +10,9 @@ a, a:visited, a:hover, a:active {
 }
 
 .nav-bar__logo {
-  font-family: 'Comfortaa';
-  letter-spacing: -5px;
-  font-size: 2.5em;
+  font-family: 'Overpass', sans-serif;
+  letter-spacing: -2px;
+  font-size: 1.5em;
 }
 
 .nav-bar__menu {
@@ -23,4 +23,5 @@ a, a:visited, a:hover, a:active {
   display: inherit;
   align-items: center;
   margin: 0px 20px 0px 20px;
+  font-weight: 100;
 }
