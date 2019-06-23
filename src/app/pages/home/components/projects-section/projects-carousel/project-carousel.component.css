@@ -1,0 +1,17 @@
+.carousel__wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  overflow: hidden;
+  border: solid yellow 2px;
+}
+
+.carousel__wrapper__item {
+  display: flex;
+  justify-content: center;
+  border: solid brown 2px;
+}
+
+ul {
+  list-style: none;
+}
