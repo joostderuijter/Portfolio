@@ -1,13 +1,44 @@
-.container {
+.carousel {
   display: flex;
   flex-direction: column;
-  border: solid 2px magenta;
-  height: 500px;
-  overflow: hidden;
 }
 
-.container__title {
+.carousel__title {
   display: flex;
   justify-content: center;
   font-size: 1.5em;
 }
+
+.carousel__wrapper {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-evenly;
+  border: solid black 3px;
+  height: 500px;
+}
+
+.carousel__wrapper__item {
+  display: inherit;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  border: solid yellow 2px;
+}
+
+.carousel__wrapper__button {
+  width: 50px;
+  text-decoration: none;
+  background: none;
+  border: none;
+}
+
+.previous {
+  color: #53e67f;
+}
+
+.next {
+  color: magenta;
+}
+
+
