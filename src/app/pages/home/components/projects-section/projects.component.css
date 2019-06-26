@@ -14,16 +14,29 @@
   overflow: hidden;
   justify-content: space-evenly;
   border: solid black 3px;
-  height: 500px;
+  height: 1000px;
 }
 
 .carousel__wrapper__item {
   display: inherit;
   flex: 1;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   font-size: 3em;
   border: solid yellow 2px;
+  padding: 0 30px 0 30px;
+  text-align: center;
+}
+
+.carousel__wrapper__item-title {
+  font-size: 50px;
+  color: purple;
+}
+
+.carousel__wrapper__item-content {
+  font-size: 25px;
+  color: lightgreen;
 }
 
 .carousel__wrapper__button {
@@ -41,4 +54,7 @@
   color: magenta;
 }
 
+.selected {
+  background-color: grey;
+}
 

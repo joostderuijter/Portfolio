@@ -1,21 +1,24 @@
 <div class="carousel">
   <div class="carousel__title">
     <h3>Projects</h3>
+    <p>Index: {{index}}</p>
   </div>
   <div class="carousel__wrapper">
-    <button class="carousel__wrapper__button previous">
+    <button (click) = navigateCarousel(-1) class="carousel__wrapper__button previous">
       <img src="../../../../../assets/left.svg">
     </button>
-    <div class="carousel__wrapper__item">
-      1
+    <div *ngFor="let project of projects"
+         [class.selected]= "project.id === index"
+         class="carousel__wrapper__item"
+         (click) = onSelect(project)>
+      <div class="carousel__wrapper__item-title">
+         {{project.projectName}}
+      </div>
+      <div class="carousel__wrapper__item-content">
+         {{project.projectContent}}
+      </div>
     </div>
-    <div class="carousel__wrapper__item">
-      2
-    </div>
-    <div class="carousel__wrapper__item">
-      3
-    </div>
-    <button class="carousel__wrapper__button next">
+    <button (click) = navigateCarousel(1) class="carousel__wrapper__button next">
       <img src="../../../../../assets/right.svg">
     </button>
   </div>
