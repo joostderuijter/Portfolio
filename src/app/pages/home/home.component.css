@@ -1,12 +1,27 @@
-.home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: solid brown 3px;
+.section {
 }
 
-.section {
-  border: dashed blue 2px;
-  margin: 50px 0px 50px 0px;
+.section__content {
+  padding: 5% 5% 5% 5%;
+  width: 1000px;
+}
+
+.header {
+  background-color: #EBEBF2;
+  color: #1F3B73
+}
+
+.about {
+  background-color: #F2B705;
+  color: #1F3B73;
+}
+
+.contact {
+  background-color: #1F3B73;
+  color: white;
+}
+
+.projects {
+
 }
 

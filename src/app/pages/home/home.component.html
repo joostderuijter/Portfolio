@@ -1,8 +1,22 @@
-<div class="home">
-  <div class = "section">
-    <app-about-section></app-about-section>
+<div fxLayout="column" fxLayoutAlign="center center" class="container">
+  <div fxLayoutAlign="center" fxFlexFill class="section header">
+    <div class="section__content">
+      <app-header></app-header>
+    </div>
   </div>
-  <div class="section">
-    <app-projects></app-projects>
+  <div fxLayoutAlign="center" fxFlexFill class="section about">
+    <div class="section__content">
+      <app-about></app-about>
+    </div>
+  </div>
+  <div fxLayoutAlign="center" fxFlexFill class="section projects">
+    <div class="section__content">
+      <app-projects></app-projects>
+    </div>
+  </div>
+  <div fxLayoutAlign="center" fxFlexFill class="section contact">
+    <div class="section__content">
+      <app-contact></app-contact>
+    </div>
   </div>
 </div>

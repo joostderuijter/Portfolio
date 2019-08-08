@@ -5,9 +5,11 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
-import { AboutSectionComponent } from './pages/home/components/about-section/about-section.component';
-import { ProjectsComponent } from './pages/home/components/projects-section/projects.component';
-import { ProjectCarouselComponent } from './pages/home/components/projects-section/projects-carousel/project-carousel.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { AboutComponent } from './pages/home/components/about/about.component';
+import { ProjectsComponent } from './pages/home/components/projects/projects.component';
+import { ContactComponent } from './pages/home/components/contact/contact.component';
+import { HeaderComponent } from './pages/home/components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,14 @@ import { ProjectCarouselComponent } from './pages/home/components/projects-secti
     FooterComponent,
     NavbarComponent,
     HomeComponent,
-    AboutSectionComponent,
+    AboutComponent,
     ProjectsComponent,
-    ProjectCarouselComponent
+    ContactComponent,
+    HeaderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

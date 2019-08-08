@@ -1,8 +1,8 @@
 body {
   /*background-color: #ffd58e;*/
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   background-color: white;
-  color: black;
+  color: #444444;
   font-size: 1.5em;
   font-weight:300;
 }
