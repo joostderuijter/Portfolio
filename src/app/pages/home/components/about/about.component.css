@@ -3,11 +3,16 @@
 }
 
 .about__title {
-  font-size: 1.2em;
+  font-size: 2em;
   font-weight: 700;
+  margin: 5%;
 }
 
-.about {
+.about__paragraph {
   font-weight: 400;
   line-height: 1.6;
+}
+
+.about__paragraph a {
+  color: #1F3B73;
 }

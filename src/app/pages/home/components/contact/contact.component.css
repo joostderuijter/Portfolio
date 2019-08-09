@@ -3,6 +3,22 @@
 }
 
 .contact__title {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 700;
+  text-align: center;
+  margin: 5%;
+}
+
+.contact__mail {
+  font-size: 0.75em;
+  font-weight: 400;
+  margin: 2%;
+}
+
+.contact__icons {
+  margin: 5%;
+}
+
+.contact__icons__icon {
+  margin: 0 10% 0 10%;
 }
