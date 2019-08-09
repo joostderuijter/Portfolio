@@ -1,9 +1,51 @@
 .projects {
   height: 100vh;
+  border: solid blue 3px;
 }
 
 .projects__title {
   margin: 5%;
   font-weight: 700;
   font-size: 2em;
+}
+
+.projects__container {
+  overflow-x:scroll;
+  overflow-y: hidden;
+  height:75%;
+  min-width: 100px;
+}
+
+.projects__container__item {
+  color:white;
+}
+
+.projects__container__item a{
+  color:white;
+}
+
+.projects__container__item__title {
+  font-size: 2em;
+  margin: 2.5%;
+}
+
+.projects__container__item__description {
+  font-size: 0.75em;
+  text-align: center;
+}
+
+.projects__container__item__view-more {
+  margin: 5%;
+}
+
+.projects__container__item__view-more__link {
+  font-size: 0.5em;
+}
+
+.project-rocketwork {
+  background-color: rebeccapurple;
+}
+
+.project-foodrandomizer{
+  background-color: #fd8023;
 }
