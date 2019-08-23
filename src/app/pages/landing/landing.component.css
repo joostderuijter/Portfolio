@@ -1,0 +1,26 @@
+.container {
+}
+
+.container__content {
+  width: 800px;
+  padding: 10px 10px 10px 10px;
+  margin: 100px 50px 50px 50px;
+}
+
+.container__content__text {
+  line-height: 1.5;
+  width: 400px;
+  margin-right: 5px;
+}
+
+.container__content__image {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: 5px;
+}
+
+.container__content__image img {
+  width: 100%;
+  height: auto;
+}

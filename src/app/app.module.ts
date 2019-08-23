@@ -10,7 +10,8 @@ import { AboutComponent } from './pages/home/components/about/about.component';
 import { ProjectsComponent } from './pages/home/components/projects/projects.component';
 import { ContactComponent } from './pages/home/components/contact/contact.component';
 import { HeaderComponent } from './pages/home/components/header/header.component';
-
+import { LandingComponent } from './pages/landing/landing.component';
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,11 +21,21 @@ import { HeaderComponent } from './pages/home/components/header/header.component
     AboutComponent,
     ProjectsComponent,
     ContactComponent,
-    HeaderComponent
+    HeaderComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    RouterModule.forRoot([
+      { path: 'portfolio',
+        component: HomeComponent
+      },
+      {
+        path: '',
+        component: LandingComponent
+      }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
