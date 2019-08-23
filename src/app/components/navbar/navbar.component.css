@@ -10,8 +10,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .nav-bar__logo {
-  font-family: 'Overpass', sans-serif;
-  letter-spacing: -2px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.5em;
 }
 
