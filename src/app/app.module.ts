@@ -12,6 +12,7 @@ import { ContactComponent } from './pages/home/components/contact/contact.compon
 import { HeaderComponent } from './pages/home/components/header/header.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { RouterModule } from '@angular/router';
+import { PhotoComponent } from './pages/photo/photo.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { RouterModule } from '@angular/router';
     ProjectsComponent,
     ContactComponent,
     HeaderComponent,
-    LandingComponent
+    LandingComponent,
+    PhotoComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +36,10 @@ import { RouterModule } from '@angular/router';
       {
         path: '',
         component: LandingComponent
+      },
+      {
+        path: 'photo',
+        component: PhotoComponent
       }
     ])
   ],
